@@ -1,0 +1,29 @@
+robotics is the interdisciplinary branch of engineering and science that includes mechanical engineering electronic engineering information engineering computer science and others
+robotics deals with the design construction operation and use of robots as well as computer systems for their control sensory feedback and information processing
+robots can be autonomous or semi autonomous and range from humanoids such as honda's advanced step in innovative mobility and tosiba's chihira to industrial robots medical robots patient assist robots swarm robots uav drones and even microscopic nano robots
+arduino is an open source computer hardware and software company project and user community that designs and manufactures single board microcontrollers and microcontroller kits for building digital devices
+arduino boards are available commercially in preassembled form or as do it yourself kits the hardware design is open source allowing anyone to manufacture and distribute boards
+the arduino project started at the interaction design institute ivrea in italy as a tool for fast prototyping for students without a background in electronics and programming
+gravity is a fundamental force of nature that attracts two bodies with mass towards each other
+the force of gravity keeps planets in orbit around stars and governs the motion of galaxies
+isaac newton formulated the law of universal gravitation which states that every particle attracts every other particle with a force proportional to the product of their masses and inversely proportional to the square of the distance between them
+albert einstein's general theory of relativity describes gravity not as a force but as a curvature of spacetime caused by mass and energy
+electricity is the set of physical phenomena associated with the presence and motion of matter that has a property of electric charge
+electricity is related to magnetism both being part of the phenomenon of electromagnetism as described by maxwell's equations
+lightning static electricity electric heating and electric currents are all manifestations of electricity
+electric charge is a fundamental property of matter carried by elementary particles such as electrons and protons
+a computer is a machine that can be programmed to carry out sequences of arithmetic or logical operations automatically
+modern computers can perform generic sets of operations known as programs which enable computers to perform a wide range of tasks
+the first electronic digital computers were developed during world war ii for code breaking and ballistics calculations
+computers consist of a central processing unit memory storage and input output devices
+science is a systematic enterprise that builds and organizes knowledge in the form of testable explanations and predictions about the universe
+the scientific method involves observation hypothesis experimentation and conclusion
+major branches of science include physics chemistry biology earth science and astronomy
+science relies on empirical evidence and logical reasoning to advance understanding
+a microcontroller is a small computer on a single metal oxide semiconductor integrated circuit chip
+a microcontroller contains one or more processor cores along with memory and programmable input output peripherals
+microcontrollers are used in automatically controlled products and devices such as automobile engine control systems implantable medical devices remote controls office machines appliances power tools toys and other embedded systems
+programming is the process of designing and building an executable computer program to accomplish a specific computing result
+programming involves tasks such as analysis generating algorithms profiling algorithms accuracy and resource consumption and implementation of algorithms in a chosen programming language
+source code is written in one or more languages that are intelligible to programmers rather than machine code
+popular programming languages include python javascript java c c++ csharp go rust and many others

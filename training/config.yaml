@@ -1,0 +1,82 @@
+# UNO-MIND Training Configuration
+# All hyperparameters for dataset, tokenizer, model, training, quantization, export
+
+# ============================================================
+# DATASET
+# ============================================================
+dataset:
+  raw_dir: "../data/raw"
+  cleaned_dir: "../data/cleaned"
+  train_file: "../data/cleaned/train.txt"
+  val_file: "../data/cleaned/validation.txt"
+  min_line_length: 10
+  max_line_length: 512
+  val_split: 0.05
+  deduplicate: true
+  lowercase: false  # Byte-level tokenizer preserves case
+
+# ============================================================
+# TOKENIZER (Byte-level = no training needed, but config for compatibility)
+# ============================================================
+tokenizer:
+  type: "byte_level"  # "byte_level" or "bpe"
+  vocab_size: 256     # Fixed for byte-level
+  special_tokens:
+    bos: 255
+    eos: 254
+    # No UNK needed - byte fallback covers all
+
+# ============================================================
+# MODEL ARCHITECTURE
+# ============================================================
+model:
+  vocab_size: 256
+  embed_dim: 16
+  context_window: 8
+  hidden_dim: 32
+  num_hidden_layers: 1
+  tie_weights: false  # Set true to share embedding/output (saves 8KB flash)
+
+# ============================================================
+# TRAINING
+# ============================================================
+training:
+  batch_size: 128
+  learning_rate: 0.003
+  weight_decay: 0.01
+  epochs: 30
+  grad_clip: 1.0
+  label_smoothing: 0.1
+  lr_schedule: "cosine"  # "cosine", "step", "none"
+  warmup_steps: 500
+  seed: 42
+  device: "auto"  # "cuda", "mps", "cpu", "auto"
+  num_workers: 4
+  pin_memory: true
+
+  # Quantization-Aware Training
+  qat:
+    enabled: true
+    start_epoch: 10  # Start QAT after this epoch
+
+# ============================================================
+# QUANTIZATION
+# ============================================================
+quantization:
+  scheme: "symmetric_per_tensor"  # "symmetric_per_tensor", "asymmetric_per_tensor"
+  weight_dtype: "int8"
+  activation_dtype: "int8"
+  accumulator_dtype: "int32"
+  calibration_samples: 1024
+
+# ============================================================
+# EXPORT (Arduino)
+# ============================================================
+export:
+  output_header: "../firmware/model_data.h"
+  model_name: "UNO-MIND-1"
+  model_version: "1.0.0"
+  tokenizer_version: "1.0"
+  quantization: "INT8_SYMMETRIC"
+  include_metadata: true
+  include_checksum: true

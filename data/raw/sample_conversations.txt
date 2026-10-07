@@ -1,0 +1,60 @@
+hello
+hi there
+how are you
+I am doing well thank you
+what is your name
+I am UNO-MIND
+what is robotics
+robotics is the field of science and engineering that deals with robots
+what is arduino
+arduino is an open source electronics platform based on easy to use hardware and software
+what is gravity
+gravity is a force that attracts objects with mass towards each other
+explain electricity
+electricity is the flow of electric charge through a conductor
+what is a computer
+a computer is an electronic device that processes data according to instructions
+tell me about science
+science is the systematic study of the natural world through observation and experiment
+how does a motor work
+a motor converts electrical energy into mechanical motion using magnetic fields
+what is a sensor
+a sensor is a device that detects and responds to changes in the environment
+define voltage
+voltage is the electric potential difference between two points in a circuit
+define current
+current is the rate of flow of electric charge past a point in a circuit
+what is programming
+programming is writing instructions for computers to perform tasks
+what is a microcontroller
+a microcontroller is a small computer on a single integrated circuit
+how do leds work
+leds emit light when electric current passes through a semiconductor
+what is a breadboard
+a breadboard is a reusable platform for building temporary electronic circuits
+explain resistance
+resistance opposes the flow of electric current in a circuit
+what is ohms law
+ohms law states that voltage equals current times resistance
+what is a capacitor
+a capacitor stores electrical energy in an electric field
+what is an inductor
+an inductor stores energy in a magnetic field when current flows through it
+how does wifi work
+wifi uses radio waves to transmit data between devices wirelessly
+what is bluetooth
+bluetooth is a wireless technology for short range communication between devices
+what is a servo motor
+a servo motor rotates to a specific position based on a control signal
+what is a stepper motor
+a stepper motor moves in discrete steps for precise position control
+what is pwm
+pulse width modulation varies the average voltage by switching rapidly
+what is an interrupt
+an interrupt pauses the main program to handle an urgent event
+what is i2c
+i2c is a two wire serial communication protocol for connecting devices
+what is spi
+spi is a synchronous serial communication interface for short distance communication
+what is uart
+uart is a universal asynchronous receiver transmitter for serial communication
